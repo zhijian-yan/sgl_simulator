@@ -24,7 +24,7 @@ Uint32 timer_callback(Uint32 interval, void *param) {
 int main(int argc, char *argv[]) {
     // init sdl
     SDL_Init(SDL_INIT_VIDEO);
-    window = SDL_CreateWindow("sgl demo", SDL_WINDOWPOS_CENTERED,
+    window = SDL_CreateWindow("sgl simulator", SDL_WINDOWPOS_CENTERED,
                               SDL_WINDOWPOS_CENTERED, HOR_RES, VER_RES, 0);
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
     texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGB565,

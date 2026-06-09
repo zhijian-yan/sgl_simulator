@@ -1,4 +1,4 @@
 #!/bin/sh
 
-gcc demo.c sgl/*.c -o demo $(sdl2-config --cflags --libs)
-./demo
+gcc sgl_simulator.c sgl/*.c -o sgl_simulator $(sdl2-config --cflags --libs)
+./sgl_simulator

@@ -1,17 +1,17 @@
 @echo off
 
-gcc demo.c sgl\*.c ^
+gcc sgl_simulator.c sgl\*.c ^
     -Isdl2\include ^
     -Lsdl2\lib ^
     -lmingw32 ^
     -lSDL2main ^
     -lSDL2 ^
     -mwindows ^
-    -o demo.exe
+    -o sgl_simulator.exe
 
 if errorlevel 1 (
     pause
     exit /b %errorlevel%
 )
 
-start "" demo.exe
+start "" sgl_simulator.exe
