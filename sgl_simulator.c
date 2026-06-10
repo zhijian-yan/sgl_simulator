@@ -1,4 +1,3 @@
-#define SDL_MAIN_HANDLED
 #include "sgl/sgl.h"
 #include <SDL2/SDL.h>
 #include <stdio.h>

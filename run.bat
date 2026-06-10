@@ -4,6 +4,7 @@ gcc sgl_simulator.c sgl\*.c ^
     -Isdl2\include ^
     -Lsdl2\lib ^
     -lmingw32 ^
+    -lSDL2main ^
     -lSDL2 ^
     -mwindows ^
     -o sgl_simulator.exe
